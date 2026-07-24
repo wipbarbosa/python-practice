@@ -28,3 +28,7 @@ Repository created to document my Python learning journey.
 - Created branches
 - Practiced merge conflicts
 - Connected local repository to GitHub
+
+## Pull Request Practice
+
+This change was made in a feature branch.
