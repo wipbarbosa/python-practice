@@ -21,3 +21,10 @@ Repository created to document my Python learning journey.
 - Learn Git and GitHub
 - Learn Docker
 - Continue studying Python
+
+## Git Progress
+
+- Learned Git basics
+- Created branches
+- Practiced merge conflicts
+- Connected local repository to GitHub
