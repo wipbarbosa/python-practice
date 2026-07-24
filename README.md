@@ -8,3 +8,10 @@ Repository created to document my Python learning journey.
 - Lists
 - Dictionaries
 - Projects
+
+## Current Progress
+
+- Terminal basics
+- Git basics
+- First Git repository
+- First commit
