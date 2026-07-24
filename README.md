@@ -15,3 +15,9 @@ Repository created to document my Python learning journey.
 - Git basics
 - First Git repository
 - First commit
+
+## Next Steps
+
+- Learn Git and GitHub
+- Learn Docker
+- Continue studying Python
