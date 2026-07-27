@@ -36,3 +36,9 @@ This change was made in a feature branch.
 ## Python Progress
 
 Currently studying Python fundamentals and practicing programming logic.
+
+### Current Focus
+
+- Python lists
+- Dictionaries
+- Programming exercises
