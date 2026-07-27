@@ -47,3 +47,8 @@ Currently studying Python fundamentals and practicing programming logic.
 ## My Development Progress
 
 Continuing to practice Git and collaborative workflows.
+
+## Team Collaboration
+
+This project is being developed collaboratively.
+
