@@ -43,3 +43,7 @@ Currently studying Python fundamentals and practicing programming logic.
 - Dictionaries
 - Programming exercises
 - Loops
+
+## My Development Progress
+
+Continuing to practice Git and collaborative workflows.
