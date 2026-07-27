@@ -43,3 +43,7 @@ Currently studying Python fundamentals and practicing programming logic.
 - Dictionaries
 - Programming exercises
 - Loops
+
+## Team Collaboration
+
+This project is being developed collaboratively.
