@@ -42,3 +42,4 @@ Currently studying Python fundamentals and practicing programming logic.
 - Python lists
 - Dictionaries
 - Programming exercises
+- Loops
