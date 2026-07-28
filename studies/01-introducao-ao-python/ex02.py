@@ -1,0 +1,11 @@
+nome = input("qual o seu nome?")
+idade = int(input("qual a sua idade?"))
+altura = float(input("qual a sua altura?"))
+peso = float(input("qual o seu peso?"))
+
+print (f"========== FICHA ==========")
+print (f"nome:{nome}")
+print (f"idade:{idade} anos")
+print (f"Altura:{altura} metros")
+print (f"Peso:{peso} kg")
+print (f"===========================")
