@@ -1,5 +1,7 @@
 lista = []
-numero_inicial = int(input(f"Olá, Digite o 1º  número inteiros: "))
+contador_pares = 0
+
+numero_inicial = int(input(f"Olá, Digite o 1º número inteiros: "))
 soma = numero_inicial
 maior = numero_inicial
 menor = numero_inicial
@@ -17,19 +19,24 @@ for i in range (4):
 
 
 
-
-print(f"\nLista digitada: {lista}\n")
+print(f"==Lista digitada==")
+for numero in lista:
+    print(f"--{numero}")
+print( "=" * 20)
 
 for numero in lista:
 
     if numero %2 == 0:
         print(f"{numero} é par")
+        contador_pares += 1
+print( "=" * 20)
 
 print(
-    f"A soma dos numeros digitados é: {soma}\n"
-    f"O maior numero digitado é {maior}\n"
-    f"O menor numero digitado é {menor}"
-      )
+    f"Soma dos numeros digitados: {soma}\n"
+    f"Maior numero digitado: {maior}\n"
+    f"Menor numero digitado: {menor}\n"
+    f"Quantidade de números pares: {contador_pares}"
+    )
 
 
 
