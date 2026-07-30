@@ -27,7 +27,7 @@ print( "=" * 20)
 for numero in lista:
 
     if numero %2 == 0:
-        print(f"{numero} é par")
+        print(f"{numero}: É par.")
         contador_pares += 1
 print( "=" * 20)
 
