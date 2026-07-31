@@ -32,4 +32,4 @@ for nome in lista:
 print(f"{'=' * 20}\n")
 
 print(f"O maior nome é: {maior_nome}")
-print(f"O menor nome é: {menor_nome}")
+print(f"O menor nome é: {menor_nome}\n")
