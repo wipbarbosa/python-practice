@@ -1,14 +1,14 @@
 lista = []
 contador_pares = 0
 
-numero_inicial = int(input(f"Olá, Digite o 1º número inteiros: "))
+numero_inicial = int(input(f"Olá, Digite o 1º número inteiro: "))
 soma = numero_inicial
 maior = numero_inicial
 menor = numero_inicial
 lista.append(numero_inicial)
 
 for i in range (4):
-    numero = int(input(f"Digite o {i + 2}º  número inteiros: "))
+    numero = int(input(f"Digite o {i + 2}º  número inteiro: "))
     lista.append(numero)
     soma += numero
 
@@ -37,9 +37,3 @@ print(
     f"Menor numero digitado: {menor}\n"
     f"Quantidade de números pares: {contador_pares}"
     )
-
-
-
-
-    
-
