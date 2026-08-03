@@ -1,10 +1,53 @@
 lista = []
+soma = 0
+pares = 0
+impares = 0
 
-for i in range(5):
-    numero = int(input("Digite 5 numeros"))
-    if numero > 100 or numero < 1:
-        print("Numero invalido")
-        while numero > 100 or numero < 1:
-            int(input("Numero invalido"))
+primeiro_numero = int(input(f"Digite o 1º número (entre 1 e 100): "))
+    
+while primeiro_numero < 1 or primeiro_numero > 100:
+    primeiro_numero = int(input("Número inválido! Digite um número entre 1 e 100: "))
+
+if primeiro_numero % 2 == 0:
+    pares += 1
+else:
+    impares += 1
+
+soma = soma + primeiro_numero
+lista.append(primeiro_numero)
+
+maior_numero = primeiro_numero
+menor_numero = primeiro_numero
+
+for i in range(4):
+    numero = int(input(f"Digite o {i + 2}º número (entre 1 e 100): "))
+    
+    while numero < 1 or numero > 100:
+        numero = int(input("Número inválido! Digite um número entre 1 e 100: "))
+
+    if numero > maior_numero:
+        maior_numero = numero
+
+    if numero < menor_numero:
+        menor_numero = numero
+
+    if numero % 2 == 0:
+        pares +=1
+    else:
+        impares += 1
+    
+
+
+    soma = soma + numero
     lista.append(numero)
+
+
+
+print("\nLista final de números válidos:")
 print (lista)
+print (soma)
+print (soma / 5)
+print (pares)
+print (impares)
+print (maior_numero)
+print (menor_numero)
