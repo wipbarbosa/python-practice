@@ -1,5 +1,3 @@
-
-
 produtos = {
     "arroz": 25.50,
     "feijao": 8.00,
@@ -36,16 +34,18 @@ while  True:
         produtos[nome] = novo_preço
 
     if entrada == 3:
+        produto_preco_novo = input(f"Digite o nome do produto a ser alterado")
+
+        if produto_preco_novo in produtos:
+            novo_preço = float(input("Digite o novo preço"))
+
+            produtos[produto_preco_novo] = novo_preço
+        else:
+            print("produto não econtrado")
 
     if entrada == 4:
-
-    if entrada == 5:
-
-    if entrada == 6:
-
-    if entrada == 7:
-
-    if entrada == 8:
+        for produto in produtos.keys():
+            print(produto)
 
     if entrada == 9:
         break
