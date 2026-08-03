@@ -52,6 +52,6 @@ print (f"Média: {soma / 5}")
 print (f"Quantidade de números Pares: {pares}")
 print (f"Quantidade de números Ímpares: {impares}")
 print (f"Maior número: {maior_numero}")
-print (f"menor numero: {menor_numero}")
+print (f"menor número: {menor_numero}")
 
-print (f"\n{'='* 20}")
+print (f"\n{'=' * 20}")
