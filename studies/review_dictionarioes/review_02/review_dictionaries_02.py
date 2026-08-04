@@ -21,6 +21,7 @@ while True:
         entrada = int(input("Entrada inválida, tente novamente: "))
 
     if entrada == 1:
+
         print("Cadastro de novo aluno")
 
         novo_aluno = input("Escreva o nome do novo aluno: ").lower()
@@ -45,4 +46,88 @@ while True:
         }
 
         alunos.append(aluno)
- 
+
+    if entrada == 2:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+
+            for aluno in alunos:
+                print (f"Nome: {aluno['nome']} | Idade: {aluno['idade']} | Nota: {aluno['nota']}")
+
+    if entrada == 3:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+            for aluno in alunos:
+                print(
+                    f"Lista de alunos: \n"
+                    f"Nome: {aluno['nome']}")
+
+    if entrada == 4:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+            
+            contador = 0
+            media = 0
+
+            for aluno in alunos:
+                contador += 1
+                media += aluno["nota"]
+
+            media = media / contador
+
+            print(f"Média das notas: {media:.2f}")
+
+    if entrada == 5:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+
+            maior_nota = 0
+            aluno_maior_nota = None
+
+            for aluno in alunos:
+                if aluno['nota'] > maior_nota:
+                    maior_nota = aluno['nota']
+                    aluno_maior_nota = aluno['nome']
+
+            print(f"A maior nota Registrada é {maior_nota} do aluno {aluno_maior_nota}")
+
+    if entrada == 6:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+
+            menor_nota = 10
+            aluno_menor_nota = None
+
+            for aluno in alunos:
+                if aluno['nota'] < menor_nota:
+                    menor_nota = aluno['nota']
+                    aluno_menor_nota = aluno['nome']
+
+            print(f"A maior nota Registrada é {menor_nota} do aluno {aluno_menor_nota}")
+
+    if entrada == 7:
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+            busca_aluno = input("Nome do aluno:").lower()
+            aluno_encontrado = False
+
+            for aluno in alunos:
+                if busca_aluno == aluno['nome']:
+                    print(
+                        f"Aluno cadastrado\n"
+                        f"Nome: {aluno['nome']}\n"
+                        f"Idade: {aluno['idade']}\n"
+                        f"Nota: {aluno['nota']}\n"
+                    )
+
+                    aluno_encontrado = True
+
+
+            if not aluno_encontrado:
+                print("Aluno não cadastrado")            
