@@ -130,4 +130,17 @@ while True:
 
 
             if not aluno_encontrado:
-                print("Aluno não cadastrado")            
+                print("Aluno não cadastrado")
+    if entrada == 8:
+
+        if len(alunos) == 0:
+            print("Sem alunos cadastrados")
+        else:
+            for aluno in alunos:
+                if aluno["nota"] >= 6:
+                    print(
+                        f"Nome: {aluno['nome']}\n"
+                        f"Idade: {aluno['idade']}\n"
+                        f"Nota: {aluno['nota']}\n"
+                        f"Situação: Aprovado\n"
+                )
