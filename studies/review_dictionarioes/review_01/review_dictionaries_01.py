@@ -27,13 +27,13 @@ while  True:
         for produto, preço in produtos.items():
             print(f"Produto: {produto} Preço: {preço}")
 
-    if entrada == 2:
+    elif entrada == 2:
         nome = input(f"Digite o nome do produto que deseja adicionar")
         novo_preço = float(input(f"Digite o preço do novo produto"))
 
         produtos[nome] = novo_preço
 
-    if entrada == 3:
+    elif entrada == 3:
         produto_preco_novo = input(f"Digite o nome do produto a ser alterado")
 
         if produto_preco_novo in produtos:
@@ -43,9 +43,41 @@ while  True:
         else:
             print("produto não econtrado")
 
-    if entrada == 4:
+    elif entrada == 4:
         for produto in produtos.keys():
             print(produto)
 
-    if entrada == 9:
+    elif entrada == 5:
+        for preço in produtos.values():
+            print(preço)
+
+    elif entrada == 6:
+        valortotal = 0
+        
+        for preço in produtos.values():
+            valortotal += preço
+
+        print(f"Valor total dos produtos: R$ {valortotal:.2f}")
+
+    elif entrada == 7:
+        maior_valor = 0
+        for produto, preço in produtos.items():
+            if preço > maior_valor:
+                maior_valor = preço
+                produto_mais_caro = produto
+
+        print(f"Produto mais caro: {produto_mais_caro}")
+        print(f"Preço: R$ {maior_valor:.2f}")
+
+    elif entrada == 8:
+        menor_valor = None
+        for produto, preço in produtos.items():
+            if menor_valor is None or preço < menor_valor:
+                menor_valor = preço
+                produto_mais_barato = produto
+
+        print(f"Produto mais barato: {produto_mais_barato}")
+        print(f"Preço: R$ {menor_valor:.2f}")
+
+    elif entrada == 9:
         break
