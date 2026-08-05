@@ -6,5 +6,7 @@ ANO_REFERENCIA = 2025
 
 ano_nascimento = int(input("Digite o ano do seu nascimento: "))
 
-print(f"\nSua idade ano final do ano de 2025 será de {ANO_REFERENCIA - ano_nascimento}")
+idade = ANO_REFERENCIA - ano_nascimento
+
+print(f"\nSua idade ao final do ano de 2025 será de {idade}")
 print("=" * 40)
