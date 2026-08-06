@@ -16,4 +16,4 @@ while combustivel <= 0:
 
 media = distancia / combustivel
 
-print(f"Consumo médio: {media:.2f} km/L")
+print(f"\nConsumo médio: {media:.2f} km/L")
