@@ -16,4 +16,3 @@ media = soma / 10
 
 print(f"\nA soma dos valores é: {soma}\n"
       f"A média dos valores é: {media:.2f}\n")
-
