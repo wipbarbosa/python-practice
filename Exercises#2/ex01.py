@@ -3,9 +3,10 @@
 contador = 1
 
 while contador < 100:
-    contador += 3
     print (contador)
+    contador += 2
+    
 
 
-for i in range(1,100,3):
+for i in range(1,100,2):
     print (i)
