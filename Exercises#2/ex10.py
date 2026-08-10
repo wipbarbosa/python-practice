@@ -13,16 +13,16 @@ print("3 - Euro  (R$ 5.90)")
 
 tipo_moeda = int(input("\nDigite o código da moeda desejada: "))
 
-multiplicador = 0
+cotacao = 0
 
 if tipo_moeda == 1:
-    multiplicador = 5.10
+    cotacao = 5.10
     nome_moeda = "Dólares"
 elif tipo_moeda == 2:
-    multiplicador = 6.88
+    cotacao = 6.88
     nome_moeda = "Libras"
 elif tipo_moeda == 3:
-    multiplicador = 5.90
+    cotacao = 5.90
     nome_moeda = "Euros"
 else:
     print("Opção inválida!")
@@ -31,7 +31,7 @@ else:
 
 montante = float(input(f"\nDigite o montante em {nome_moeda} que deseja adquirir: "))
 
-valor_base_reais = montante * multiplicador
+valor_base_reais = montante * cotacao
 
 if valor_base_reais < 1000:
     taxa_comissao = 0.05
