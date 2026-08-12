@@ -1,21 +1,25 @@
-'''nomes = ["Ana", "Carlos", "Pedro", "Maria", "João"]
+#NOME POR ENUMERAÇÃO
+nomes = ["Ana", "Carlos", "Pedro", "Maria", "João"]
 
 for i , nome in enumerate(nomes):
     if i  % 2 ==  0:
-        print (nome)'''
+        print (nome)
 
-'''numeros = [10, 5, 20, 8]
+#SOMA, MINIMO E MAXIMO
+numeros = [10, 5, 20, 8]
 
 print(sum(numeros))
 print(min(numeros))
-print(max(numeros))'''
+print(max(numeros))
 
-'''numeros = [1, 2, 3, 4, 5, 6]
+#DOBRO DO VALOR DA LISTA
+numeros = [1, 2, 3, 4, 5, 6]
 
 dobro = [numero + numero for numero in numeros]
-print (dobro)'''
+print (dobro)
 
-'''numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#PRINT DE PARES E IMPARES SEPARADOS
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 pares = [numero for numero in numeros if numero % 2 == 0 ]
 
@@ -23,24 +27,27 @@ print (pares)
 
 impares = [numero for numero in numeros if numero % 2 == 1 ]
 
-print (impares)'''
+print (impares)
 
 
-'''numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#APENAS MAIORES QUE 5
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 maiores = [numero for numero  in numeros if numero > 5]
 
-print (maiores)'''
+print (maiores)
 
 
-'''numeros = [1, 2, 3, 4, 5, 6]
+#DOBRO SOMENTE DOS NUMEROS PARES
+numeros = [1, 2, 3, 4, 5, 6]
 
 dobro_pares = [numero * 2 for numero in numeros if numero % 2 == 0]
 
-print(dobro_pares)'''
+print(dobro_pares)
 
 import random
 
+#NUMEROS ALEATORIOS DE 1 A 10 
 lista = []
 
 while True:
