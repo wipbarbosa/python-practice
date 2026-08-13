@@ -1,54 +1,24 @@
 # Python Studies
 
-Repository created to document my Python learning journey.
+Repositório criado para documentar minha jornada de aprendizado em Python.
 
-## Topics
+## Conteúdo
 
-- Python fundamentals
-- Lists
-- Dictionaries
-- Projects
+- **`fundamentals/`** — exercícios de fundamentos: variáveis, listas, dicionários, loops e lógica de programação
+- **`projects/lista-de-tarefas/`** — projeto prático de lista de tarefas aplicando os conceitos estudados
 
-## Current Progress
+## Tópicos estudados
 
-- Terminal basics
-- Git basics
-- First Git repository
-- First commit
+- Fundamentos de Python (variáveis, tipos, estruturas de controle)
+- Listas e dicionários
+- Lógica de programação aplicada a pequenos projetos
+- Git e GitHub (branches, commits, merge, pull requests)
 
-## Next Steps
+## Próximos passos
 
-- Learn Git and GitHub
-- Learn Docker
-- Continue studying Python
+- Continuar estudando Python (funções, POO, tratamento de erros)
+- Explorar Docker
 
-## Git Progress
+---
 
-- Learned Git basics
-- Created branches
-- Practiced merge conflicts
-- Connected local repository to GitHub
-
-## Pull Request Practice
-
-This change was made in a feature branch.
-
-## Python Progress
-
-Currently studying Python fundamentals and practicing programming logic.
-
-### Current Focus
-
-- Python lists
-- Dictionaries
-- Programming exercises
-- Loops
-
-## My Development Progress
-
-Continuing to practice Git and collaborative workflows.
-
-## Team Collaboration
-
-This project is being developed collaboratively.
-
+Projetos mais elaborados, com escopo de aplicação real, estão em [python-projects](https://github.com/wipbarbosa/python-projects).
