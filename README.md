@@ -1,24 +1,30 @@
-# Python Studies
+# 🐍 Python Practice & Studies
 
-Repositório criado para documentar minha jornada de aprendizado em Python.
+> **A collection of Python exercises, experiments, and fundamental projects documenting my journey from basics to intermediate concepts.**
 
-## Conteúdo
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-- **`fundamentals/`** — exercícios de fundamentos: variáveis, listas, dicionários, loops e lógica de programação
-- **`projects/lista-de-tarefas/`** — projeto prático de lista de tarefas aplicando os conceitos estudados
+## 📚 About This Repository
 
-## Tópicos estudados
+This repository serves as my **learning lab** for Python. Here, I document my progress through:
+- Core syntax and data structures
+- Logic building and algorithmic thinking
+- Version control best practices (Git & GitHub)
+- Small-scale practical applications
 
-- Fundamentos de Python (variáveis, tipos, estruturas de controle)
-- Listas e dicionários
-- Lógica de programação aplicada a pequenos projetos
-- Git e GitHub (branches, commits, merge, pull requests)
+## 📂 Repository Structure
 
-## Próximos passos
-
-- Continuar estudando Python (funções, POO, tratamento de erros)
-- Explorar Docker
-
----
-
-Projetos mais elaborados, com escopo de aplicação real, estão em [python-projects](https://github.com/wipbarbosa/python-projects).
+```text
+├── fundamentals/          # Core exercises: variables, loops, conditionals
+│   ├── variables.py
+│   ├── loops_and_logic.py
+│   └── data_structures.py
+│
+├── projects/
+│   └── to-do-list/       # Practical CLI project applying learned concepts
+│       ├── main.py
+│       └── README.md
+│
+└── README.md             # This file
