@@ -26,6 +26,3 @@ for j in range(3):
             maior = matriz [i][j]
 
     print(f'Maior da coluna {j + 1}: {maior}')
-
-
-
